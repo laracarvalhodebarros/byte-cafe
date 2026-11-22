@@ -1,6 +1,6 @@
 name: Pipeline Docker Byte Cafegit add .
 
-on:
+on:git add .
   push:
     branches:
       - main
