@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            laracarvalhodebarros/byte-cafe:latest
-            laracarvalhodebarros/byte-cafe:${{ github.run_number }}
+            lara123456718/byte-cafe:latest
+            lara123456718/byte-cafe:${{ github.run_number }}
