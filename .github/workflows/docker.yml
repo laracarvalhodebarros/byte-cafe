@@ -1,6 +1,6 @@
-name: Pipeline Docker Byte Cafegit add .
+name: Pipeline Docker Byte Café
 
-on:git add .
+on:
   push:
     branches:
       - main
@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/byte-cafe:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/byte-cafe:${{ github.run_number }}
+            laracarvalhodebarros/byte-cafe:latest
+            laracarvalhodebarros/byte-cafe:${{ github.run_number }}
