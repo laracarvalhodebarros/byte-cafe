@@ -1,4 +1,4 @@
-name: Pipeline Docker Byte Café
+name: Pipeline Docker Byte Cafe
 
 on:
   push:
